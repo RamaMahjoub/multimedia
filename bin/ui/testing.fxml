@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.text.TextFlow?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="650.0" style="-fx-background-color: #177E89;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <TextFlow prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <QuadCurve controlX="-50.0" controlY="-100.0" endX="594.4960327148438" endY="298.9039306640625" fill="#084c61" startX="-38.81312942504883" startY="294.7337646484375" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </TextFlow>
+   </top>
+   <center>
+      <Button alignment="TOP_CENTER" contentDisplay="TOP" mnemonicParsing="false" prefHeight="31.0" prefWidth="184.0" style="-fx-background-color: #FFC857;" text="Choose Image" BorderPane.alignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="50.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" mnemonicParsing="false" style="-fx-background-color: #084C61;" text="Start Algorithm" textAlignment="CENTER" />
+         </children>
+      </HBox>
+   </bottom>
+</BorderPane>
